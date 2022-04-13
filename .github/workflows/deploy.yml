@@ -11,7 +11,7 @@ jobs:
           HOST: ${{ secrets.HOST }}
           USERNAME: ${{ secrets.USERNAME }}
           PORT: ${{ secrets.PORT }}
-          KEY: ${{ secrets.KEY }}
+          PASSWORD: ${{ secrets.KEY }}
         with:
           source: "program/*"
           target: "/var/www/melissaignacio.site/public_html"
